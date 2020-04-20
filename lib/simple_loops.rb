@@ -1,7 +1,7 @@
 # Write your methods here
 def loop_message_five_times(message)
   i = 0
-  while i < 6
+  while i < 6 do
     puts message
     i += 1
   end
@@ -24,7 +24,11 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  
+  counter = 0 
+  while counter < array.length do 
+    counter += 1 
+  end
+end
   
   
 end
